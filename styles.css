@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  font-family: sans-serif;
+}
+
+#container {
+  background-color: #fff;
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 368px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  content: url("./resources/Cactus.jpg");
+}
+
+button {
+  margin: 1rem 0;
+  border: none;
+  color: purple;
+  font-weight: 600;
+  padding: 4px 1rem;
+  background-color: plum;
+  border-radius: 50px;
+}
+
+.heading {
+  margin-bottom: 4px;
+}
+p {
+  margin-bottom: 20px;
+}
+
+.author {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+@media (max-width: 412px) {
+  .image {
+    content: url("./resources/Cactus-2x.jpg");
+  }
+}
