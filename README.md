@@ -8,11 +8,8 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
-      Demo
-    </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://sg75.github.io/Minimal-blog-card/">
       Solution
     </a>
     <span> | </span>
@@ -65,7 +62,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
 
 ## Features
 
